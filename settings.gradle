@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Pracrical_2.4'
