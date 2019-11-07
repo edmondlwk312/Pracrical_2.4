@@ -18,11 +18,11 @@ class MainActivity : AppCompatActivity()
 
     override fun onCreate(savedInstanceState: Bundle?)
     {
-        binding.myName = myName
+
 
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-
+        binding.myName = myName
         binding.doneButton.setOnClickListener {
             addNickname(it)
         }
